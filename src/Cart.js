@@ -1,5 +1,5 @@
 import React from 'react'
-import  "./css/Cart.css"
+import "./css/Cart.css"
 import clothes3 from './assets/images/products/clothes-3.jpg';
 
 const Cart = () => {
@@ -61,8 +61,8 @@ const Cart = () => {
                     <span className="signs">+</span>
                   </div>
                   <div className="price-box">
-                    <p className="price">$45.00</p>
-                    <del>$12.00</del>
+                    <p className="price">₹45.00</p>
+                    <del>₹12.00</del>
                   </div>
                   <p className="saved">You saved 71%</p>
                 </div>
@@ -116,8 +116,8 @@ const Cart = () => {
                     <span className="signs">+</span>
                   </div>
                   <div className="price-box">
-                    <p className="price">$45.00</p>
-                    <del>$12.00</del>
+                    <p className="price">₹45.00</p>
+                    <del>₹12.00</del>
                   </div>
                   <p className="saved">You saved 71%</p>
                 </div>
@@ -132,18 +132,18 @@ const Cart = () => {
             <table className="amount-table">
               <tr className="sub-row">
                 <th>Sub-total:</th>
-                <td>$50</td>
+                <td>₹50</td>
               </tr>
               <tr>
                 <th>Total:</th>
-                <td>$50</td>
+                <td>₹50</td>
               </tr>
             </table>
             <div className="blankdiv"></div>
             <br />
             <div className="total-head">
               <h4>The total amount(including GST)</h4>
-              <h4 className="total-price">$50</h4>
+              <h4 className="total-price">₹50</h4>
             </div>
             <button className="checkout-btn">Go to Checkout</button>
           </div>

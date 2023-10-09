@@ -1,4 +1,4 @@
-import styles from'./css/signup/style.module.css'
+import styles from './css/signup/style.module.css'
 
 const Signup = () => {
     return (

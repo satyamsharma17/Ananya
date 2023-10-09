@@ -1,6 +1,6 @@
-import "./Searchstyle.css";
+import "./Search.css";
 import clothes1 from "../../assets/images/products/clothes-1.jpg";
-const Search = ({ setShowSearch }) => {
+const Search = () => {
   return (
     <>
       <div className="search-result-content">

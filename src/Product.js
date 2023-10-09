@@ -1,6 +1,5 @@
 import React from 'react'
 import clothes1 from './assets/images/products/clothes-1.jpg'
-import Products from './Products';
 import "./css/Product.css";
 
 const Product = () => {
@@ -44,7 +43,7 @@ const Product = () => {
                   <ion-icon name="star-outline" />
                   <ion-icon name="star-outline" />
                 </div>
-                <a href="index.html#">
+                <a href="#">
                   <h3 className="showcase-title">
                     RELAXED SHORT FULL SLEEVES PULLOVER SWEATER
                   </h3>
@@ -54,8 +53,8 @@ const Product = () => {
                   sit amet consectetur Lorem ipsum dolor
                 </p>
                 <div className="price-box">
-                  <p className="price">$45.00</p>
-                  <del>$12.00</del>
+                  <p className="price">₹45.00</p>
+                  <del>₹12.00</del>
                 </div>
                 <div className="addcart-quanity">
                   <button className="add-cart-btn">add to cart</button>
@@ -75,26 +74,26 @@ const Product = () => {
                   </p>
                 </div>
                 <div className="spsociallinks">
-                 
+
                   <ul className="header-social-container">
                     <li><p>Share:  </p></li>
                     <li>
-                      <a href="index.html#" className="social-link">
+                      <a href="#" className="social-link">
                         <ion-icon name="logo-facebook" />
                       </a>
                     </li>
                     <li>
-                      <a href="index.html#" className="social-link">
+                      <a href="#" className="social-link">
                         <ion-icon name="logo-twitter" />
                       </a>
                     </li>
                     <li>
-                      <a href="index.html#" className="social-link">
+                      <a href="#" className="social-link">
                         <ion-icon name="logo-instagram" />
                       </a>
                     </li>
                     <li>
-                      <a href="index.html#" className="social-link">
+                      <a href="#" className="social-link">
                         <ion-icon name="logo-linkedin" />
                       </a>
                     </li>
@@ -106,47 +105,46 @@ const Product = () => {
         </div>
       </div>
       <div className="policy-box">
-      <div className="service-container">
-              <a href="index.html#" className="service-item"  id='deliveryservice'>
-                <div className="service-icon">
-                  <ion-icon name="boat-outline" />
-                </div>
-                <div className="service-content" >
-                  <h3 className="service-title" >Worldwide Delivery</h3>
-                  <p className="service-desc">For Order Over $100</p>
-                </div>
-              </a>
-              
-              <a href="index.html#" className="service-item">
-                <div className="service-icon">
-                  <ion-icon name="call-outline" />
-                </div>
-                <div className="service-content">
-                  <h3 className="service-title">Best Online Support</h3>
-                  <p className="service-desc">Hours: 8AM - 11PM</p>
-                </div>
-              </a>
-              <a href="index.html#" className="service-item">
-                <div className="service-icon">
-                  <ion-icon name="arrow-undo-outline" />
-                </div>
-                <div className="service-content">
-                  <h3 className="service-title">Return Policy</h3>
-                  <p className="service-desc">Easy &amp; Free Return</p>
-                </div>
-              </a>
-              <a href="index.html#" className="service-item">
-                <div className="service-icon">
-                  <ion-icon name="ticket-outline" />
-                </div>
-                <div className="service-content">
-                  <h3 className="service-title">30% money back</h3>
-                  <p className="service-desc">For Order Over $100</p>
-                </div>
-              </a>
+        <div className="service-container">
+          <a href="#" className="service-item" id='deliveryservice'>
+            <div className="service-icon">
+              <ion-icon name="boat-outline" />
             </div>
+            <div className="service-content" >
+              <h3 className="service-title" >Worldwide Delivery</h3>
+              <p className="service-desc">For Order Over ₹100</p>
+            </div>
+          </a>
+
+          <a href="#" className="service-item">
+            <div className="service-icon">
+              <ion-icon name="call-outline" />
+            </div>
+            <div className="service-content">
+              <h3 className="service-title">Best Online Support</h3>
+              <p className="service-desc">Hours: 8AM - 11PM</p>
+            </div>
+          </a>
+          <a href="#" className="service-item">
+            <div className="service-icon">
+              <ion-icon name="arrow-undo-outline" />
+            </div>
+            <div className="service-content">
+              <h3 className="service-title">Return Policy</h3>
+              <p className="service-desc">Easy &amp; Free Return</p>
+            </div>
+          </a>
+          <a href="#" className="service-item">
+            <div className="service-icon">
+              <ion-icon name="ticket-outline" />
+            </div>
+            <div className="service-content">
+              <h3 className="service-title">30% money back</h3>
+              <p className="service-desc">For Order Over ₹100</p>
+            </div>
+          </a>
+        </div>
       </div>
-      <Products/>
     </>
   );
 }
